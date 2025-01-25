@@ -154,7 +154,7 @@ img {
     height: 16px;
 }
 
-.input-check-group input:checked span {
+.input-check-group #user-privacy:checked .checkbox-text {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
