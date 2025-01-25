@@ -19,7 +19,7 @@ img {
     display: block;
 }
 
-.modal {
+.modal-window {
     position: fixed;
     background-color: rgba(46, 47, 66, 0.4);
     width: 100%;
