@@ -148,10 +148,10 @@ img {
     height: 40px;
     display: flex;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 .feature-extra {
-    margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     height: 100%;
