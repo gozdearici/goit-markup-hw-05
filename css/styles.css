@@ -702,7 +702,7 @@ section.section-first {
     gap: 16px;
 }
 
-.footer-right-right form[name="subscribe"] {
+.footer-right-right .subscribe-form {
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -714,7 +714,7 @@ section.section-first {
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: transparent;
+    background-color: transparent;
     padding-left: 16px;
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -732,10 +732,11 @@ section.section-first {
     color: #fff;
 }
 
-.footer-right-right button {
+.footer-right-right .subscribe-submit-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 16px;
     border-radius: 4px;
     padding: 8px 24px;
@@ -749,6 +750,12 @@ section.section-first {
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.footer-right-right .icon-items {
+    margin-left: 16px;
 }
 
 .footer-right-right .icon-items use {
