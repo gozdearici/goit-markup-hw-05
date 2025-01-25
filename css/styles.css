@@ -181,11 +181,6 @@ img {
     fill: #F4F4FD;
 }
 
-.input-check-group svg {
-    position: relative;
-    right: 13px;
-}
-
 .input-check-group label {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
