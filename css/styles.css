@@ -118,16 +118,16 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-box svg {
+.input-box .icon-modals {
     top: 50%;
     transform: translateY(-50%);
 }
 
-.input-box .inputs:hover + .input-box .icon-modals {
+.input-group .inputs:hover + .input-group .icon-modals {
     fill: #4D5AE5;
 }
 
-.input-box .inputs:focus {
+.input-group .inputs:focus {
     border-color: #4D5AE5;
 }
 
