@@ -78,21 +78,21 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-container .close-button:hover {
+.modal-container + .close-button:hover {
     background-color: #404bbf;
     border: none;
 }
 
-.modal-container .close-button:focus {
+.modal-container + .close-button:focus {
     background-color: #404bbf;
     border: none;
 }
 
-.modal-container .close-button:hover svg {
+.modal-container + .close-button:hover svg {
     fill: #ffffff;
 }
 
-.modal-container .close-button:focus svg {
+.modal-container + .close-button:focus svg {
     fill: #ffffff;
 }
 
