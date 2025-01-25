@@ -135,6 +135,9 @@ img {
     display: flex;
     align-items: center;
     padding-left: 16px;
+}
+
+.feature-extra {
     margin-bottom: 16px;
 }
 
