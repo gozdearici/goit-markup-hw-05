@@ -61,15 +61,16 @@ img {
     justify-content: center;
     align-items: center;
     background-color: #e7e9fc;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     position: absolute;
-    top: 10px;
-    left: 364px;
+    top: 24px;
+    right: 24px;
     font-size: 24px;
     padding: 0;
     cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -81,6 +82,10 @@ img {
 .close-button:focus {
     background-color: #404bbf;
     border: none;
+}
+
+.close-button:hover .icon-close,
+.close-button:focus .icon-close {
     fill: #ffffff;
 }
 
@@ -196,8 +201,8 @@ img {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     text-align: center;
     color: #8e8f99;
     margin-bottom: 4px;
