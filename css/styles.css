@@ -275,7 +275,7 @@ img {
 }
 
 .comment-box:focus {
-    border-color: #4D5AE5;
+    border-color: var(--iris);
 }
 
 
