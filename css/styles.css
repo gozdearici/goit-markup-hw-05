@@ -251,8 +251,8 @@ img {
     padding-left: 38px;
 }
 
-.input-box .inputs:focus {
-    border-color: #4D5AE5;
+.inputs:focus {
+    border-color: var(--iris);
 }
 
 .comment-box {
